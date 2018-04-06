@@ -1,0 +1,28 @@
+body {
+	background-color: #400e44;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.instrument {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 350px;
+	display: inline-block;
+	opacity: 0.2;
+}
+
+.active {
+	opacity: 1.0;
+}
+
+.rotate-right {
+	-webkit-transform:rotate(7deg);
+}
+
+.rotate-left {
+	-webkit-transform:rotate(-7deg);
+}
